@@ -4,10 +4,11 @@
 // インナー幅設定
 ////////////////////
 $inner: 1100px;
+$liquid-inner : (($inner + $passing-pc * 2));
 
-// 余白
 $padding-pc: 25px;
 $padding-sp: 20px;
+
 
 ////////////////////
 // フォント設定
@@ -44,7 +45,7 @@ $breakpoints: (
   lg: 1024,
   mm: 960,
   md: 768,
-  sm: 600,
+  sm: 601,
   ss: 375,
 );
 
@@ -131,12 +132,6 @@ $mediaquerys: (
   }
 }
 
-.br-481 {
-  display: block;
-  @media screen and (max-width: 481px){
-    display: none;
-  }
-}
 
 // ダウンサイズ時の改行
 .br-ss {
