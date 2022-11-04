@@ -3,9 +3,7 @@
 ////////////////////
 // インナー幅設定
 ////////////////////
-// コンテンツのインナー幅（最も共通の幅が多い部分）
 $inner: 1100px;
-// ※キャンパス幅ではなくインナーの幅を指す
 
 // 余白
 $padding-pc: 25px;
@@ -18,7 +16,7 @@ $padding-sp: 20px;
 $base-font-family: 'Noto Sans JP', sans-serif;
 
 body {
-  font-family: $base-font-family;
+  font-family: $base-font-family,sans-serif;
 }
 
 // フォントウェイト
