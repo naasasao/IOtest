@@ -21,12 +21,13 @@
 }
 
 .header__logo img {
-height: inherit;
+    height: inherit;
 }
 
 .header__nav {
     height: inherit;
 }
+
 .header__lists {
     display: flex;
     gap: rem(20);
