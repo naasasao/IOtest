@@ -1,0 +1,46 @@
+@use 'global' as *;
+
+.header {
+    background-color: rgb(204, 230, 163);
+    height: 80px;
+}
+
+
+.header__inner {
+    max-width: rem(1440);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: inherit;
+    padding-left: $padding-pc;
+    padding-right: $padding-pc;
+}
+
+.header__logo {
+    height: inherit;
+}
+
+.header__logo img {
+    height: inherit;
+}
+
+.header__nav {
+    height: inherit;
+}
+
+.header__lists {
+    display: flex;
+    gap: rem(20);
+    height: inherit;
+}
+
+.header__list {
+    height: inherit;
+}
+
+.header__list a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+}
