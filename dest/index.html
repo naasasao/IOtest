@@ -1,4 +1,6 @@
-<!-- ここから_header.ejs -->
+<!-- 
+ -->
+            <!-- ここから_header.ejs -->
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -9,101 +11,156 @@
   <title>トップのタイトルindex</title>
   <meta name="description" content="ディスクリプションindex">
 </head>
-    <p>ココはheader.ejsに追加した文章</p>
-    トップページのタイトルタグ
+    <!-- <p>ココはheader.ejsに追加した文章</p>
+    トップページのタイトルタグ -->
       <body>
+        <header class="header layout-header">
+          <div class="header__inner">
+            <div class="header__logo">
+              <img src="./images/sample.jpg" alt="ヘッダーのロゴ">
+            </div>
+            <nav class="header__nav">
+              <ul class="header__lists">
+                <li class="header__list"><a href="">あああああ</a></li>
+                <li class="header__list"><a href="">いいいいい</a></li>
+                <li class="header__list"><a href="">ううううう</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
         <!-- ここまで_header.ejs -->
-<!-- Q&Aの部分 -->
-<section class="qa layout-qa">
-  <div class="qa__inner">
-    <div class="section-title">
-      <h2 class="section-title__en">Q&A</h2>
-      <h2 class="section-title__ja">よくある質問</h2>
-    </div>
-    <ul class="qa__contents">
-      <li class="qa__content">
-        <div class="qa__label">
-          <p>テキストテキストテキストテキストテキスト<br class="br-450">テキスト</p>
-          <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
-        </div>
-        <div class="qa__answer">
-          <p>あああああああああああああああ</p>
-        </div>
-      </li>
-      <li class="qa__content">
-        <div class="qa__label">
-          <p>テキストテキストテキスト<br class="br-mm">テキストテキストテキスト</p>
-          <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
-        </div>
-        <div class="qa__answer">
-          <p>あああああああああああああああ</p>
-        </div>
-      </li>
-      <li class="qa__content">
-        <div class="qa__label">
-          <p>テキストテキスト<br class="br-mm">テキストテキスト</p>
-          <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
-        </div>
-        <div class="qa__answer">
-          <p>あああああああああああああああ</p>
-        </div>
-      </li>
-      <li class="qa__content">
-        <div class="qa__label">
-          <p>テキストテキストテキスト</p>
-          <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
-        </div>
-        <div class="qa__answer">
-          <p>あああああああああああああああ</p>
-        </div>
-      </li>
-      <li class="qa__content">
-        <div class="qa__label">
-          <p>テキストテキスト<br class="br-450">テキスト</p>
-          <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
-        </div>
-        <div class="qa__answer">
-          <p>あああああああああああああああ</p>
-        </div>
-      </li>
-      <li class="qa__content">
-        <div class="qa__label">
-          <p>テキストテキスト<br class="br-mm">テキストテキスト</p>
-          <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
-        </div>
-        <div class="qa__answer">
-          <p>あああああああああああああああ</p>
-        </div>
-      </li>
-    </ul>
-    <div class="qa__button-area">
-      <a href="" class="button">Q&A<span></span></a>
-    </div>
-</section>
-<!-- 付箋のアニメーション -->
-<section class="sticky layout-sticky">
-  <div class="sticky__inner">
-    <div class="section-title">
-      <h2 class="section-title__en">STICKY</h2>
-      <h2 class="section-title__ja">付箋のアニメーションエリア</h2>
-    </div>
-    <div class="sticky__wrapper">
-      <div class="sticky__image sticky1">
-        <img src="./images/sticky-yellow.png" alt="黄色の付箋">
-      </div>
-      <div class="sticky__image sticky2">
-        <img src="./images/sticky-red.png" alt="赤色の付箋">
-      </div>
-      <div class="sticky__image sticky3">
-        <img src="./images/sticky-green.png" alt="緑色の付箋">
-      </div>
-    </div>
-  </div>
-</section>
-<!-- トップページのディスクリプション！！ -->
-</div><!-- /qa__inner -->
-</div><!-- /qa -->
-<!-- ここから_footer.ejs -->
+              <section class="yama layout-yama">
+                <div class="yama__inner">
+                  <div class="yama__title-area section-title">
+                    <h2 class="section-title__ja">セクションタイトル</h2>
+                    <p class="section-title__en">section title</p>
+                  </div>
+                  <div class="yama__container">
+                    <div class="yama__card-area">
+                      <div class="yama__image">
+                        <img src="./images/sample.jpg" alt="サンプル画像">
+                      </div>
+                      <div class="yama__text-area">
+                        <p>テキストテキストテキストテキストテキスト</p>
+                      </div>
+                    </div>
+                    <div class="yama__card-area">
+                      <div class="yama__image">
+                        <img src="./images/sample.jpg" alt="サンプル画像">
+                      </div>
+                      <div class="yama__text-area">
+                        <p>テキストテキストテキストテキストテキスト</p>
+                      </div>
+                    </div>
+                    <div class="yama__card-area">
+                      <div class="yama__image">
+                        <img src="./images/sample.jpg" alt="サンプル画像">
+                      </div>
+                      <div class="yama__text-area">
+                        <p>テキストテキストテキストテキストテキスト</p>
+                      </div>
+                    </div>
+                    <div class="yama__card-area">
+                      <div class="yama__image">
+                        <img src="./images/sample.jpg" alt="サンプル画像">
+                      </div>
+                      <div class="yama__text-area">
+                        <p>テキストテキストテキストテキストテキスト</p>
+                      </div>
+                    </div>
+                  </div>
+                </div><!--yama__inner-->
+              </section>
+              <!-- Q&Aの部分 -->
+              <section class="qa layout-qa">
+                <div class="qa__inner">
+                  <div class="section-title">
+                    <h2 class="section-title__en">Q&A</h2>
+                    <h2 class="section-title__ja">よくある質問</h2>
+                  </div>
+                  <ul class="qa__contents">
+                    <li class="qa__content">
+                      <div class="qa__label">
+                        <p>テキストテキストテキストテキストテキスト<br class="br-450">テキスト</p>
+                        <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
+                      </div>
+                      <div class="qa__answer">
+                        <p>あああああああああああああああ</p>
+                      </div>
+                    </li>
+                    <li class="qa__content">
+                      <div class="qa__label">
+                        <p>テキストテキストテキスト<br class="br-mm">テキストテキストテキスト</p>
+                        <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
+                      </div>
+                      <div class="qa__answer">
+                        <p>あああああああああああああああ</p>
+                      </div>
+                    </li>
+                    <li class="qa__content">
+                      <div class="qa__label">
+                        <p>テキストテキスト<br class="br-mm">テキストテキスト</p>
+                        <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
+                      </div>
+                      <div class="qa__answer">
+                        <p>あああああああああああああああ</p>
+                      </div>
+                    </li>
+                    <li class="qa__content">
+                      <div class="qa__label">
+                        <p>テキストテキストテキスト</p>
+                        <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
+                      </div>
+                      <div class="qa__answer">
+                        <p>あああああああああああああああ</p>
+                      </div>
+                    </li>
+                    <li class="qa__content">
+                      <div class="qa__label">
+                        <p>テキストテキスト<br class="br-450">テキスト</p>
+                        <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
+                      </div>
+                      <div class="qa__answer">
+                        <p>あああああああああああああああ</p>
+                      </div>
+                    </li>
+                    <li class="qa__content">
+                      <div class="qa__label">
+                        <p>テキストテキスト<br class="br-mm">テキストテキスト</p>
+                        <div class="qa__icon-wrap"><span class="qa__icon"></span></div>
+                      </div>
+                      <div class="qa__answer">
+                        <p>あああああああああああああああ</p>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="qa__button-area">
+                    <a href="" class="button">Q&A<span></span></a>
+                  </div>
+                </div>
+              </section>
+              <!-- 付箋のアニメーション -->
+              <section class="sticky layout-sticky">
+                <div class="sticky__inner">
+                  <div class="section-title">
+                    <h2 class="section-title__en">STICKY</h2>
+                    <h2 class="section-title__ja">付箋のアニメーションエリア</h2>
+                  </div>
+                  <div class="sticky__wrapper">
+                    <div class="sticky__image sticky1">
+                      <img src="./images/sticky-yellow.png" alt="黄色の付箋">
+                    </div>
+                    <div class="sticky__image sticky2">
+                      <img src="./images/sticky-red.png" alt="赤色の付箋">
+                    </div>
+                    <div class="sticky__image sticky3">
+                      <img src="./images/sticky-green.png" alt="緑色の付箋">
+                    </div>
+                  </div>
+                </div>
+              </section>
+              <!-- トップページのディスクリプション！！ -->
+              <!-- ここから_footer.ejs -->
 <div class="footer">
     <p>ここはfooter</p>
     <p>footer.ejsに追加してindex.ejsへコンパイルされるのを確認</p>

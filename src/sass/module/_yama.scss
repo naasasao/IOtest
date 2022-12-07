@@ -1,0 +1,49 @@
+@use 'global' as *;
+
+.yama {
+    background-color: rgb(187, 230, 238);
+    padding-top: rem(50);
+    padding-bottom: rem(200);
+}
+
+.yama__inner {
+    max-width: rem(1160);
+    width: 100%;
+    margin: 0 auto;
+    padding-left: $padding-pc;
+    padding-right: $padding-pc;
+    @include mq('md') {
+       max-width: rem(960); 
+    }
+}
+
+.yama__container {
+    margin-top: rem(120);
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem(20);
+}
+.yama__card-area {
+    margin-top: rem(50);
+    width: 30%;
+
+}
+.yama__image {
+    width: 100%;
+    position: relative;
+}
+.yama__image::before {
+    content:"";
+    display: block;
+    padding-top: 56.25%; 
+}
+.yama__image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
